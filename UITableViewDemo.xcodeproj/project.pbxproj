@@ -15,6 +15,7 @@
 		8CE29D311DF4197100113227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE29D2F1DF4197100113227 /* LaunchScreen.storyboard */; };
 		8CE29D3C1DF4197100113227 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D3B1DF4197100113227 /* UITableViewDemoTests.m */; };
 		8CE29D471DF4197100113227 /* UITableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D461DF4197100113227 /* UITableViewDemoUITests.m */; };
+		8CE29D561DF41A0300113227 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D551DF41A0300113227 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8CE29D421DF4197100113227 /* UITableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE29D461DF4197100113227 /* UITableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoUITests.m; sourceTree = "<group>"; };
 		8CE29D481DF4197100113227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE29D541DF41A0300113227 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8CE29D551DF41A0300113227 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8CE29D2F1DF4197100113227 /* LaunchScreen.storyboard */,
 				8CE29D321DF4197100113227 /* Info.plist */,
 				8CE29D211DF4197100113227 /* Supporting Files */,
+				8CE29D541DF41A0300113227 /* TableViewController.h */,
+				8CE29D551DF41A0300113227 /* TableViewController.m */,
 			);
 			path = UITableViewDemo;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				8CE29D291DF4197100113227 /* ViewController.m in Sources */,
 				8CE29D261DF4197100113227 /* AppDelegate.m in Sources */,
 				8CE29D231DF4197100113227 /* main.m in Sources */,
+				8CE29D561DF41A0300113227 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
